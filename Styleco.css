@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: rgb(199, 53, 53);
+    color: white;
+    padding: 30px;
+    max-height: 20px;
+    margin: 0 auto;
+}
+header img{
+    padding-left: 10px;
+    width: 25px;
+
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    padding-left: 300px;
+
+
+}
+.ha {
+    padding-right: 20px;
+    
+}
+
+#munu{
+    max-width: 1000px;
+    min-height: 50px;
+    background: white;
+    margin: 0 auto;
+}
+.lo img{
+    padding-right: 270px;
+
+}
+#munu ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+#munu a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#munu a:hover{
+    background: rgb(223, 127, 127);
+}
+#munu ul ul{
+    display: none;
+    position: absolute;
+}
+
+
+#munu ul li:hover ul{
+    display: block;
+    background: rgb(236, 209, 209);
+}
+#contenedor{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#contenedor ul{
+    list-style: none;
+    background: rgb(238, 235, 235);
+    float: right;
+    width: 500px;
+    height: 500px;
+
+}
+#Contenido a{
+    text-decoration: none;
+    padding-left: 40px;
+
+}
+#Contenido input{
+    background: rgb(248, 241, 227);
+    
+}
+footer img{
+    max-width: 1305px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+    
+}
